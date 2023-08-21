@@ -1,20 +1,22 @@
 import './Button.css'
 
 type ButtonProps = {
-    text: string
-    disabled?: boolean
-    onClick: () => void
+    disabled?: boolean;
+    type?: 'button' | 'submit'
+    onClick?: () => void;
+    children: React.ReactNode;
 }
 
-const Button = ({ text, disabled = false, onClick }: ButtonProps) => {
+const Button = ({ children, type = 'button', disabled = false, onClick }: ButtonProps) => {
 
     return(
         <button 
+          type={type}
           className='button'
           disabled={disabled}
           onClick={onClick}
         >  
-        {text}
+        {children}
       </button>
     )
 }
