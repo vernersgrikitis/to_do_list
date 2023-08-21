@@ -1,3 +1,25 @@
+Task Management App
+Overview
+The Task Management App is a simple web application built with React for managing tasks. It allows users to add, mark as done/undone, and delete tasks. This README provides an overview of the application's features, how to set it up, and how to use it.
+
+Features
+Add Tasks: Users can add tasks with a description.
+
+Mark Tasks: Users can mark tasks as done or undone.
+
+Delete Tasks: Users can delete tasks they no longer need.
+
+Loading Indicator: There's a loading indicator to show when tasks are being fetched from the server.
+
+Installation
+To run this application locally, follow these steps:
+
+Clone the Repository: https://github.com/vernersgrikitis/to_do_list.git
+
+npm install
+
+npm start
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
